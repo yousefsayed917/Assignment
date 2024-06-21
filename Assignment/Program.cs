@@ -1,13 +1,14 @@
 ﻿namespace Assignment
 {
-    class Point
-    {
-        public int x;
-    }
+    //class Point
+    //{
+    //    public int x;
+    //}
     internal class Program
     {
         static void Main(string[] args)
         {
+            #region Assignment 2
             #region Q1
             //Console.WriteLine("Enter a Number To Print It");
             //int x = int.Parse(Console.ReadLine()!);
@@ -73,6 +74,62 @@
             #region 10
             // d) 7 7
             #endregion
+            #endregion
+            #region Assignment 3
+            #region Q1
+            //Console.WriteLine(" Enter A Number To Check if that number can be divided by 3 and 4 otherwise");
+            //int x = int.Parse(Console.ReadLine()!);
+            //if (x % 3 == 0 && x % 4 == 0)
+            //    Console.WriteLine("Yes");
+            //else
+            //    Console.WriteLine("No");
+            #endregion
+            #region Q2
+            //Console.WriteLine(" Enter A Number To Check if It Is Negative Or Positive ");
+            //int x = int.Parse(Console.ReadLine()!);
+            //if (x>0)
+            //    Console.WriteLine("Positive");
+            //else if (x<0)
+            //    Console.WriteLine("Negative");
+            //else 
+            //    Console.WriteLine("Zero");
+            #endregion
+            #region Q3
+            //Console.WriteLine(" Enter 3 Numbers To Get Max and Min ");
+            //int x = int.Parse(Console.ReadLine()!);
+            //int y = int.Parse(Console.ReadLine()!);
+            //int z = int.Parse(Console.ReadLine()!);
+            //int max = x;
+            //int min = x;
+            //if (y > x)
+            //    max = y;
+            //else if (y < x)
+            //    min = y;
+            //if (z>x)
+            //    max = z;
+            //else if (y < z)
+            //    min = z;
+            //Console.WriteLine(max);
+            //Console.WriteLine(min);
+            #endregion
+            #region Q4
+            //Console.WriteLine(" Enter A Number To Check if It Is Odd Or Even ");
+            //int x = int.Parse(Console.ReadLine()!);
+            //if (x % 2 == 1)
+            //    Console.WriteLine("Odd");
+            //else
+            //    Console.WriteLine("Even");
+            #endregion
+            #region 5
+            Console.WriteLine(" Enter A Number To Check if It Is vowel Or consonant ");
+            char x = char.ToLower(char.Parse(Console.ReadLine()!));
+            if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u')
+                Console.WriteLine("vowel");
+            else
+                Console.WriteLine("consonant");
+            #endregion
+
+                #endregion
 
         }
     }
