@@ -120,15 +120,14 @@
             //else
             //    Console.WriteLine("Even");
             #endregion
-            #region 5
-            Console.WriteLine(" Enter A Number To Check if It Is vowel Or consonant ");
-            char x = char.ToLower(char.Parse(Console.ReadLine()!));
-            if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u')
-                Console.WriteLine("vowel");
-            else
-                Console.WriteLine("consonant");
+            #region Q5
+            //Console.WriteLine(" Enter A Number To Check if It Is vowel Or consonant ");
+            //char x = char.ToLower(char.Parse(Console.ReadLine()!));
+            //if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u')
+            //    Console.WriteLine("vowel");
+            //else
+            //    Console.WriteLine("consonant");
             #endregion
-
                 #endregion
 
         }
