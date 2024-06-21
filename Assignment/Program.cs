@@ -9,9 +9,9 @@
         static void Main(string[] args)
         {
             #region Q1
-            //Console.WriteLine("Enter a Number To Print It");
-            //int x = int.Parse(Console.ReadLine()!);
-            //Console.WriteLine($"the number is : {x}");
+            Console.WriteLine("Enter a Number To Print It");
+            int x = int.Parse(Console.ReadLine()!);
+            Console.WriteLine($"the number is : {x}");
             #endregion
             #region Q2
             //Console.WriteLine("Enter a String Contains Non-Numeric Characters");
